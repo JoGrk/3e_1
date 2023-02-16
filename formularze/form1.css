@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(30, 30, 30);
+}
+form {
+    background-color: white;
+    width: 30rem;
+    padding: 1rem;
+    margin: 3rem auto;
+    border-radius: 6px;
+
+}
+label{
+    display: block;
+    margin-bottom: 0.5rem;
+}
+input{
+    display: block;
+    width: 100%;
+    padding: 0.25rem;
+    margin-bottom: 1rem;
+    background-color: lightgray;
+}
+input:focus{
+    background-color: lightpink;
+}
+
+button{
+    display: block;
+}
+button:hover{
+    background-color: lightcoral;
+}
