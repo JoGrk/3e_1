@@ -1,17 +1,44 @@
 <!DOCTYPE html>
 <html lang="pl">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Formularz</title>
-    <link rel="stylesheet" href="form1.css">
-</head>
-<body>
+    <link rel="stylesheet" href="form1.css" />
+  </head>
+  <body>
     <form action="form1.html" method="get">
-        <label for="firstName">Twoje imię:</label>
-        <input type="text" id="firstName" name="first-name">
-        <button>Zatwierdź</button>
+      <label for="firstName">Twoje imię:</label>
+      <input type="text" id="firstName" name="first-name" />
+      <label for="userMessage">Wpisz wiadomość: </label>
+      <textarea name="user-message" id="userMessage"></textarea>
+      <label for="userMail">Podaj email:</label>
+      <input type="email" id="userMail" name="user-mail" />
+      <label for="userAge">Podaj wiek:</label>
+      <input type="number" id="userAge" name="user-age" step="0.5" />
+      <label for="userPassword">Podaj hasło:</label>
+      <input type="password" id="userPassword" name="user-password" />
+      <label for="userBirth">Podaj datę urodzenia:</label>
+      <input type="date" id="userBirth" name="user-birth" />
+      <hr>
+      <label for="favoritecolor">Podaj ulubiony kolor</label>
+      <select name="favoritecolor" id="favoritecolor">
+        <option value="red">mój ulubiony kolor to czerwony</option>
+        <option value="blue">mój ulubiony kolor to niebieski</option>
+        <option value="green">mój ulubiony kolor to zielony</option>
+        <option value="orange">mój ulubiony kolor to pomaranczowy</option>
+      </select>
+
+      <h2>How should we verify your account</h2>
+      <input type="radio" name="how" id="how-sms" value="sms" />
+      <label for="how-sms">Via sms</label>
+      <input type="radio" name="how" id="how-phone" value="phone" />
+      <label for="how-phone">Via phone</label>
+      <input type="radio" name="how" id="how-email" value="email" />
+      <label for="how-email">Via email</label>
+      <input type="checkbox" name="" id="">
+      <button>Zatwierdź</button>
     </form>
-</body>
+  </body>
 </html>
