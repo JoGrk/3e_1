@@ -12,7 +12,7 @@
       <label for="firstName">Twoje imię:</label>
       <input type="text" id="firstName" name="first-name" />
       <label for="userMessage">Wpisz wiadomość: </label>
-      <textarea name="user-message" id="userMessage"></textarea>
+      <textarea name="user-message" id="userMessage" rows="6"></textarea>
       <label for="userMail">Podaj email:</label>
       <input type="email" id="userMail" name="user-mail" />
       <label for="userAge">Podaj wiek:</label>
@@ -21,7 +21,7 @@
       <input type="password" id="userPassword" name="user-password" />
       <label for="userBirth">Podaj datę urodzenia:</label>
       <input type="date" id="userBirth" name="user-birth" />
-      <hr>
+      <hr />
       <label for="favoritecolor">Podaj ulubiony kolor</label>
       <select name="favoritecolor" id="favoritecolor">
         <option value="red">mój ulubiony kolor to czerwony</option>
@@ -31,13 +31,33 @@
       </select>
 
       <h2>How should we verify your account</h2>
-      <input type="radio" name="how" id="how-sms" value="sms" />
-      <label for="how-sms">Via sms</label>
-      <input type="radio" name="how" id="how-phone" value="phone" />
-      <label for="how-phone">Via phone</label>
-      <input type="radio" name="how" id="how-email" value="email" />
-      <label for="how-email">Via email</label>
-      <input type="checkbox" name="" id="">
+      <ul>
+        <li class="input-group">
+          <input type="radio" name="how" id="how-sms" value="sms" />
+          <label for="how-sms">Via sms</label>
+        </li>
+        <li class="input-group">
+          <input type="radio" name="how" id="how-phone" value="phone" />
+          <label for="how-phone">Via phone</label>
+        </li>
+        <li class="input-group">
+          <input type="radio" name="how" id="how-email" value="email" />
+          <label for="how-email">Via email</label>
+        </li>
+      </ul>
+
+      <div class="input-group">
+        <input type="checkbox" name="agree" id="agree" />
+        <label for="agree">Agree to terms?</label>
+      </div>
+      <div class="input-group">
+        <input type="checkbox" name="Contact" id="email" value="email" />
+        <label for="agree">Contact me via email</label>
+      </div>
+      <div class="input-group">
+        <input type="checkbox" name="Contact" id="phone" value="phone" />
+        <label for="agree">Contact me via phone</label>
+      </div>
       <button>Zatwierdź</button>
     </form>
   </body>

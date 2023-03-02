@@ -1,0 +1,24 @@
+body{
+    display: grid;
+    grid-template-columns: 30% auto ;
+
+    grid-template-areas: "nav pic";
+}
+
+nav{
+    background-color: rgb(179, 174, 174);
+    grid-area: "nav";
+    height: 800px;
+    
+}
+
+main{
+    background-color: grey;
+    grid-area: "pic";
+    height: 1vh;
+}
+
+img{
+    width:800px;
+    margin-top:6rem;
+}

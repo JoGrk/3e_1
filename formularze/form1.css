@@ -1,6 +1,7 @@
 body{
     background-color: rgb(30, 30, 30);
 }
+
 form {
     background-color: white;
     width: 30rem;
@@ -9,17 +10,20 @@ form {
     border-radius: 6px;
 
 }
+
 label{
     display: block;
     margin-bottom: 0.5rem;
 }
-input, textarea{
+
+input, textarea, select{
     display: block;
     width: 100%;
     padding: 0.25rem;
     margin-bottom: 1rem;
     background-color: lightgray;
 }
+
 input:focus, textarea:focus{
     background-color: lightpink;
 }
@@ -29,4 +33,23 @@ button{
 }
 button:hover{
     background-color: lightcoral;
+}
+
+ul {
+    padding:0;
+}
+.input-group {
+    display: flex;
+
+    
+}
+
+.input-group input {
+    width: auto;
+    margin-left: 0.5rem;
+     
+}
+
+textarea {
+    resize: vertical;
 }
