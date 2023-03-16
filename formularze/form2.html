@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="form2.css" />
+  </head>
+  <body>
+    <form>
+      <label for="name">Your name</label>
+      <input type="text" name="name" id="name" />
+      <label for="mail">Your E-Mail Address</label>
+      <input type="email" name="mail" id="mail" />
+      <label for="phone">Your Phone Number</label>
+      <input type="text" name="phone" id="phone" required />
+      <label for="message">Your message</label>
+      <textarea name="message" id="message" rows="6"></textarea>
+      <label for="find">How did you find us?</label>
+      <select name="find" id="find">
+        <option value="Web">Web Search</option>
+        <option value="newspaper">newspaper</option>
+      </select>
+      <h2>How should we reply</h2>
+      <input type="radio" name="reply" id="reply1" value="call" />
+      <label for="reply1">Call me</label>
+      <input type="radio" name="reply" id="reply2" value="email" />
+      <label for="reply2">Send me an email</label>
+      <input type="radio" name="reply" id="reply3" value="dont" />
+      <label for="reply3">Dont reply</label>
+
+      <input type="checkbox" name="terms" id="terms" />
+      <label for="terms">Accept Terms</label>
+
+      <button type="reset">Clear</button>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>

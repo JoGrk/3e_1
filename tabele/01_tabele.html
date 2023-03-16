@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <title>tabele</title>
+    <link rel="stylesheet" href="01_tabele.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <th>Dzień</th>
+        <th>Ilość</th>
+      </tr>
+      <tr>
+        <td>poniedziałek</td>
+        <td>2</td>
+      </tr>
+      <tr>
+        <td>wtorek</td>
+        <td>3</td>
+      </tr>
+    </table>
+
+    <table>
+      <tr>
+        <td>1</td>
+        <td>2</td>
+        <td rowspan="2">ok</td>
+      </tr>
+
+      <tr>
+        <td>3</td>
+        <td>4</td>
+      </tr>
+
+      <tr>
+        <td colspan="2">dane</td>
+        <td>10</td>
+      </tr>
+    </table>
+
+    <table class="inny">
+      <tr class="inny">
+        <td  class="inny">1</td>
+        <td colspan="2">2</td>
+      </tr>
+      <tr>
+        <td rowspan="2">3</td>
+        <td>4</td>
+        <td>5</td>
+      </tr>
+      <tr>
+        <td colspan="2">6</td>
+      </tr>
+    </table>
+  </body>
+</html>
