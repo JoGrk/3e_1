@@ -1,0 +1,49 @@
+table {
+    margin: 3rem auto;
+
+    border-collapse: collapse;
+    width: 40rem;
+    color: rgb(30,30,30);
+}
+
+tr {
+    border-top: 1px solid  rgb(103, 50, 163);
+    border-bottom: 1px solid  rgb(103, 50, 163);
+}
+
+tfoot {
+    border-top: 3px solid rgb(103, 50, 163);
+}
+
+td, th {
+   
+    padding: 0.5rem 2rem ;
+}
+
+thead th:last-child {
+    width: 20%;
+}
+
+th, td {
+    text-align: center;
+}
+
+tfoot td {
+    text-align: right;
+    background-color:  rgb(215, 202, 230);
+}
+
+thead th{
+    background-color:  rgb(215, 202, 230);
+}
+    
+
+tbody tr:nth-child(even){
+    background-color: rgb(245, 245, 255);
+}
+
+
+
+tfoot tr:hover {
+   color:red;
+}

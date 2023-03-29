@@ -1,0 +1,44 @@
+table {
+    margin: 2rem auto;
+    border: 3px solid rgb(42, 83, 42);
+    border-collapse: collapse;
+    width: 35rem
+}
+
+tfoot {
+    border: 3px solid rgb(42, 83, 42);
+}
+
+td, th {
+    border: 1px solid rgb(42, 83, 42);
+    padding: 0.5rem 1.5rem ;
+}
+
+thead th:first-child {
+    width: 50%;
+}
+
+th, td {
+    text-align: left;
+}
+
+tfoot td {
+    text-align: right;
+}
+
+thead th{
+    background-color:  rgb(84, 126, 84); 
+    color: white;
+}
+
+tbody tr:nth-child(even){
+    background-color:  rgb(221, 224, 221);;
+}
+
+tfoot th {
+    background-color: rgb(221, 224, 221);
+}
+
+tbody th:hover {
+   color:red;
+}
