@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(37, 37, 37);
+}
+
+#spring {
+    width:30rem;
+    margin: 2rem auto;
+    background-color: rgb(221, 241, 247);
+}
